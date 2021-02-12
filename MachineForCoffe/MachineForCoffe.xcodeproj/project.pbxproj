@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE08829E25D6A31800CFFDC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08829D25D6A31800CFFDC4 /* AppDelegate.swift */; };
+		EE0882A025D6A31800CFFDC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08829F25D6A31800CFFDC4 /* SceneDelegate.swift */; };
+		EE0882A225D6A31800CFFDC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0882A125D6A31800CFFDC4 /* ViewController.swift */; };
+		EE0882A525D6A31800CFFDC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0882A325D6A31800CFFDC4 /* Main.storyboard */; };
+		EE0882A725D6A31900CFFDC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0882A625D6A31900CFFDC4 /* Assets.xcassets */; };
+		EE0882AA25D6A31900CFFDC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0882A825D6A31900CFFDC4 /* LaunchScreen.storyboard */; };
+		EE0882B625D6A3E300CFFDC4 /* drinkClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0882B525D6A3E300CFFDC4 /* drinkClass.swift */; };
+		EE0882B925D6A41300CFFDC4 /* coffeMachineClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0882B825D6A41300CFFDC4 /* coffeMachineClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE08829A25D6A31800CFFDC4 /* MachineForCoffe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MachineForCoffe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE08829D25D6A31800CFFDC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE08829F25D6A31800CFFDC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE0882A125D6A31800CFFDC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE0882A425D6A31800CFFDC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE0882A625D6A31900CFFDC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE0882A925D6A31900CFFDC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE0882AB25D6A31900CFFDC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE0882B525D6A3E300CFFDC4 /* drinkClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinkClass.swift; sourceTree = "<group>"; };
+		EE0882B825D6A41300CFFDC4 /* coffeMachineClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coffeMachineClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE08829725D6A31800CFFDC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE08829125D6A31800CFFDC4 = {
+			isa = PBXGroup;
+			children = (
+				EE08829C25D6A31800CFFDC4 /* MachineForCoffe */,
+				EE08829B25D6A31800CFFDC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE08829B25D6A31800CFFDC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE08829A25D6A31800CFFDC4 /* MachineForCoffe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE08829C25D6A31800CFFDC4 /* MachineForCoffe */ = {
+			isa = PBXGroup;
+			children = (
+				EE08829D25D6A31800CFFDC4 /* AppDelegate.swift */,
+				EE08829F25D6A31800CFFDC4 /* SceneDelegate.swift */,
+				EE0882B225D6A36F00CFFDC4 /* Model */,
+				EE0882B325D6A38000CFFDC4 /* View */,
+				EE0882B425D6A38900CFFDC4 /* Controller */,
+				EE0882A625D6A31900CFFDC4 /* Assets.xcassets */,
+				EE0882A825D6A31900CFFDC4 /* LaunchScreen.storyboard */,
+				EE0882AB25D6A31900CFFDC4 /* Info.plist */,
+			);
+			path = MachineForCoffe;
+			sourceTree = "<group>";
+		};
+		EE0882B225D6A36F00CFFDC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE0882B525D6A3E300CFFDC4 /* drinkClass.swift */,
+				EE0882B825D6A41300CFFDC4 /* coffeMachineClass.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EE0882B325D6A38000CFFDC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE0882A325D6A31800CFFDC4 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE0882B425D6A38900CFFDC4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE0882A125D6A31800CFFDC4 /* ViewController.swift */,
+			);
+			name = Controller;
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE08829925D6A31800CFFDC4 /* MachineForCoffe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0882AE25D6A31900CFFDC4 /* Build configuration list for PBXNativeTarget "MachineForCoffe" */;
+			buildPhases = (
+				EE08829625D6A31800CFFDC4 /* Sources */,
+				EE08829725D6A31800CFFDC4 /* Frameworks */,
+				EE08829825D6A31800CFFDC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MachineForCoffe;
+			productName = MachineForCoffe;
+			productReference = EE08829A25D6A31800CFFDC4 /* MachineForCoffe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE08829225D6A31800CFFDC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EE08829925D6A31800CFFDC4 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = EE08829525D6A31800CFFDC4 /* Build configuration list for PBXProject "MachineForCoffe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE08829125D6A31800CFFDC4;
+			productRefGroup = EE08829B25D6A31800CFFDC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE08829925D6A31800CFFDC4 /* MachineForCoffe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE08829825D6A31800CFFDC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0882AA25D6A31900CFFDC4 /* LaunchScreen.storyboard in Resources */,
+				EE0882A725D6A31900CFFDC4 /* Assets.xcassets in Resources */,
+				EE0882A525D6A31800CFFDC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE08829625D6A31800CFFDC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0882A225D6A31800CFFDC4 /* ViewController.swift in Sources */,
+				EE0882B625D6A3E300CFFDC4 /* drinkClass.swift in Sources */,
+				EE08829E25D6A31800CFFDC4 /* AppDelegate.swift in Sources */,
+				EE0882B925D6A41300CFFDC4 /* coffeMachineClass.swift in Sources */,
+				EE0882A025D6A31800CFFDC4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE0882A325D6A31800CFFDC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE0882A425D6A31800CFFDC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE0882A825D6A31900CFFDC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE0882A925D6A31900CFFDC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE0882AC25D6A31900CFFDC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE0882AD25D6A31900CFFDC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE0882AF25D6A31900CFFDC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MachineForCoffe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ispetrovskyi.MachineForCoffe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE0882B025D6A31900CFFDC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MachineForCoffe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ispetrovskyi.MachineForCoffe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE08829525D6A31800CFFDC4 /* Build configuration list for PBXProject "MachineForCoffe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0882AC25D6A31900CFFDC4 /* Debug */,
+				EE0882AD25D6A31900CFFDC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0882AE25D6A31900CFFDC4 /* Build configuration list for PBXNativeTarget "MachineForCoffe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0882AF25D6A31900CFFDC4 /* Debug */,
+				EE0882B025D6A31900CFFDC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE08829225D6A31800CFFDC4 /* Project object */;
+}
