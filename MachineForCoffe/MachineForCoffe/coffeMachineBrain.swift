@@ -42,21 +42,14 @@ class CoffeMachine {
             water -= drinkType.waterNeeded
         }
         
-//        if milk < 0 {
-//            message = "Add Milk"
-//        } else if water < 0 {
-//            message = "Add Water"
-//        } else if coffeBeans < 0 {
-//            message = "Add Coffe"
-//        }
+        print("Water = \(water)")
+        print("Coffe beans = \(coffeBeans)")
+        print("Milk = \(milk)")
         
-        print("Water is \(water)")
-        print("Coffe beans are \(coffeBeans)")
-        print("MilkCounter is \(milk)")
     }
     
     func addWater() {
-        water += 50
+        water += 60
         componentMessage = "Water is added"
     }
     
@@ -66,7 +59,7 @@ class CoffeMachine {
     }
     
     func addMilk() {
-        milk += 50
+        milk += 80
         componentMessage = "Milk is added"
     }
     
