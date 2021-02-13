@@ -20,25 +20,45 @@ class ViewController: UIViewController {
         
     }
     
-    @IBAction func drinkTypeChoosedButton(_ sender: UIButton) {
-        
+    
+    @IBAction func americanoChosedButton(_ sender: UIButton) {
         coffeMachine.makeDrink(drinkType: .americano)
-       
+        tetxLabel.text = coffeMachine.message
     }
+    
+    @IBAction func espressoChosedButton(_ sender: UIButton) {
+        coffeMachine.makeDrink(drinkType: .espresso)
+        tetxLabel.text = coffeMachine.message
+    }
+    
+    
+    @IBAction func cupucinoChosedButton(_ sender: UIButton) {
+        coffeMachine.makeDrink(drinkType: .cupucino)
+        tetxLabel.text = coffeMachine.message
+    }
+    
+    
+    @IBAction func mocacinoChosedButton(_ sender: UIButton) {
+        coffeMachine.makeDrink(drinkType: .moccacino)
+        tetxLabel.text = coffeMachine.message
+    }
+    
     
     @IBAction func addWaterButton(_ sender: UIButton) {
         coffeMachine.addWater()
-        tetxLabel.text = "Water Added"
+        tetxLabel.text = coffeMachine.componentMessage
     }
+    
     
     @IBAction func addBeansButton(_ sender: UIButton) {
         coffeMachine.addBeans()
-        tetxLabel.text = "Beans Added"
+        tetxLabel.text = coffeMachine.componentMessage
     }
+    
     
     @IBAction func addMilkButton(_ sender: UIButton) {
         coffeMachine.addMilk()
-        tetxLabel.text = "Milk Added"
+        tetxLabel.text = coffeMachine.componentMessage
     }
     
 

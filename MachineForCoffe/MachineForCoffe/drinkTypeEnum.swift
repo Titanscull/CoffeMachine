@@ -7,7 +7,7 @@
 
 import UIKit
 
-enum DrinkType: String {
+enum DrinkType {
     case americano, espresso, moccacino, cupucino
     
     var coffeNeeded: Int {

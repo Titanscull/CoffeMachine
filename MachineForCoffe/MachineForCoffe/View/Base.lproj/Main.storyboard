@@ -79,7 +79,7 @@
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="drinkTypeChoosedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bsM-sL-51z"/>
+                                    <action selector="americanoChosedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BOk-mt-fUQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsg-0j-xK3">
@@ -89,6 +89,9 @@
                                 <state key="normal" title="espresso" image="circle" catalog="system">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="espressoChosedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8LE-eB-e9k"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="68I-Fb-rmm">
                                 <rect key="frame" x="30" y="446" width="32" height="22"/>
@@ -97,6 +100,9 @@
                                 <state key="normal" title="capucino" image="circle" catalog="system">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="cupucinoChosedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Edm-Nh-NvR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JbB-eT-kuB">
                                 <rect key="frame" x="30" y="527" width="32" height="22"/>
@@ -105,6 +111,9 @@
                                 <state key="normal" title="moccacino" image="circle" catalog="system">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="mocacinoChosedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xgk-dr-Ikh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mwT-qI-Dn5">
                                 <rect key="frame" x="240" y="304" width="26" height="22"/>
