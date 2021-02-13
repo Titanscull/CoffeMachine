@@ -13,8 +13,8 @@
 		EE0882A525D6A31800CFFDC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0882A325D6A31800CFFDC4 /* Main.storyboard */; };
 		EE0882A725D6A31900CFFDC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0882A625D6A31900CFFDC4 /* Assets.xcassets */; };
 		EE0882AA25D6A31900CFFDC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0882A825D6A31900CFFDC4 /* LaunchScreen.storyboard */; };
-		EE0882B625D6A3E300CFFDC4 /* drinkClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0882B525D6A3E300CFFDC4 /* drinkClass.swift */; };
-		EE0882B925D6A41300CFFDC4 /* coffeMachineClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0882B825D6A41300CFFDC4 /* coffeMachineClass.swift */; };
+		EE0882B625D6A3E300CFFDC4 /* drinkTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0882B525D6A3E300CFFDC4 /* drinkTypeEnum.swift */; };
+		EE0882B925D6A41300CFFDC4 /* coffeMachineBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0882B825D6A41300CFFDC4 /* coffeMachineBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		EE0882A625D6A31900CFFDC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE0882A925D6A31900CFFDC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE0882AB25D6A31900CFFDC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE0882B525D6A3E300CFFDC4 /* drinkClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinkClass.swift; sourceTree = "<group>"; };
-		EE0882B825D6A41300CFFDC4 /* coffeMachineClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coffeMachineClass.swift; sourceTree = "<group>"; };
+		EE0882B525D6A3E300CFFDC4 /* drinkTypeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinkTypeEnum.swift; sourceTree = "<group>"; };
+		EE0882B825D6A41300CFFDC4 /* coffeMachineBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coffeMachineBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +75,8 @@
 		EE0882B225D6A36F00CFFDC4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				EE0882B525D6A3E300CFFDC4 /* drinkClass.swift */,
-				EE0882B825D6A41300CFFDC4 /* coffeMachineClass.swift */,
+				EE0882B525D6A3E300CFFDC4 /* drinkTypeEnum.swift */,
+				EE0882B825D6A41300CFFDC4 /* coffeMachineBrain.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -169,9 +169,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE0882A225D6A31800CFFDC4 /* ViewController.swift in Sources */,
-				EE0882B625D6A3E300CFFDC4 /* drinkClass.swift in Sources */,
+				EE0882B625D6A3E300CFFDC4 /* drinkTypeEnum.swift in Sources */,
 				EE08829E25D6A31800CFFDC4 /* AppDelegate.swift in Sources */,
-				EE0882B925D6A41300CFFDC4 /* coffeMachineClass.swift in Sources */,
+				EE0882B925D6A41300CFFDC4 /* coffeMachineBrain.swift in Sources */,
 				EE0882A025D6A31800CFFDC4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

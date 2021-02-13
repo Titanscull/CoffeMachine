@@ -23,7 +23,7 @@
                                 <color key="textColor" red="0.94901960784313721" green="0.63137254901960782" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EsprESSo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bBr-zp-Gtn">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Espresso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bBr-zp-Gtn">
                                 <rect key="frame" x="70" y="380" width="81" height="15"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -58,8 +58,8 @@
                                 <color key="textColor" red="0.88235294117647056" green="0.84705882352941175" blue="0.62352941176470589" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clear Thrash" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9cd-8z-tj5">
-                                <rect key="frame" x="279" y="527" width="98" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add Milk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9cd-8z-tj5">
+                                <rect key="frame" x="279" y="527" width="66" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.88235294117647056" green="0.84705882352941175" blue="0.62352941176470589" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -78,6 +78,9 @@
                                 <state key="normal" title="americano" image="circle" catalog="system">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="drinkTypeChoosedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bsM-sL-51z"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsg-0j-xK3">
                                 <rect key="frame" x="30" y="376" width="32" height="22"/>
@@ -111,15 +114,21 @@
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="labelColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="addWaterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZLp-ZV-XvO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSi-tj-MWL">
                                 <rect key="frame" x="240" y="525" width="26" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.90588235294117647" green="0.90196078431372551" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="clearThrash" image="circle.fill" catalog="system">
+                                <state key="normal" title="addMilk" image="circle.fill" catalog="system">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="labelColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="addMilkButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RVx-S4-e3d"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B2d-32-kjP">
                                 <rect key="frame" x="240" y="412" width="26" height="22"/>
@@ -129,6 +138,9 @@
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="labelColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="addBeansButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ceR-Ya-2V8"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="center" text="Choose youre drink, Please!" borderStyle="bezel" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KpY-VO-fhp">
                                 <rect key="frame" x="42" y="142" width="331" height="34"/>
@@ -142,6 +154,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.35686274509803922" green="0.35686274509803922" blue="0.35686274509803922" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="tetxLabel" destination="KpY-VO-fhp" id="h2d-Ow-QIT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
