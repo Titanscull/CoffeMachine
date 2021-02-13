@@ -16,33 +16,39 @@ class CoffeMachine {
     var message = ""
     var componentMessage = ""
     
-    
     func makeDrink(drinkType: DrinkType) {
         
         if water < drinkType.waterNeeded {
-           message = "Add Water"
+            message = "Add Water"
         } else if water > drinkType.waterNeeded {
-        message = "Enjoy youre \(drinkType)"
+            message = "Enjoy youre \(drinkType)"
             water -= drinkType.waterNeeded
         }
         
         if coffeBeans < drinkType.coffeNeeded {
             message = "Add Coffe"
-
-        } else if coffeBeans < drinkType.coffeNeeded {
+        } else if coffeBeans > drinkType.coffeNeeded && water > drinkType.waterNeeded {
             message = "Enjoy youre \(drinkType)"
             coffeBeans -= drinkType.coffeNeeded
             water -= drinkType.waterNeeded
         }
         
         if milk < drinkType.milkNedded {
-           message = "Add milk"
-        } else if milk > drinkType.milkNedded {
+            message = "Add milk"
+        } else if milk > drinkType.milkNedded && coffeBeans > drinkType.coffeNeeded && water > drinkType.waterNeeded {
             message = "Enjoy youre \(drinkType)"
             milk -= drinkType.milkNedded
             coffeBeans -= drinkType.coffeNeeded
             water -= drinkType.waterNeeded
         }
+        
+//        if milk < 0 {
+//            message = "Add Milk"
+//        } else if water < 0 {
+//            message = "Add Water"
+//        } else if coffeBeans < 0 {
+//            message = "Add Coffe"
+//        }
         
         print("Water is \(water)")
         print("Coffe beans are \(coffeBeans)")
@@ -52,7 +58,6 @@ class CoffeMachine {
     func addWater() {
         water += 50
         componentMessage = "Water is added"
-        
     }
     
     func addBeans() {
@@ -64,5 +69,6 @@ class CoffeMachine {
         milk += 50
         componentMessage = "Milk is added"
     }
+    
     
 }
