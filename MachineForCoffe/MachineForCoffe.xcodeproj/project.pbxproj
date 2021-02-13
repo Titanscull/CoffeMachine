@@ -75,8 +75,8 @@
 		EE0882B225D6A36F00CFFDC4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				EE0882B525D6A3E300CFFDC4 /* drinkTypeEnum.swift */,
 				EE0882B825D6A41300CFFDC4 /* coffeMachineBrain.swift */,
+				EE0882B525D6A3E300CFFDC4 /* drinkTypeEnum.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";

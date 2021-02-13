@@ -12,34 +12,41 @@ class CoffeMachine {
     var water = 0
     var coffeBeans = 0
     var milk = 0
+    var thrash = 0
     
-    var message = ""
-    var componentMessage = ""
+    var titleMessage = ""
+    var componentTitleMessage = ""
     
     func makeDrink(drinkType: DrinkType) {
         
+        if thrash >= 100 {
+            titleMessage = "Clear thrash"
+            print(thrash)
+            return
+        }
+        
         if water < drinkType.waterNeeded {
-            message = "Add Water"
-        } else if water > drinkType.waterNeeded {
-            message = "Enjoy youre \(drinkType)"
-            water -= drinkType.waterNeeded
+            titleMessage = "Add Water"
+            print(titleMessage)
+            return
         }
         
         if coffeBeans < drinkType.coffeNeeded {
-            message = "Add Coffe"
-        } else if coffeBeans > drinkType.coffeNeeded && water > drinkType.waterNeeded {
-            message = "Enjoy youre \(drinkType)"
-            coffeBeans -= drinkType.coffeNeeded
-            water -= drinkType.waterNeeded
+            titleMessage = "Add Coffe"
+            print(titleMessage)
+            return
         }
         
         if milk < drinkType.milkNedded {
-            message = "Add milk"
-        } else if milk > drinkType.milkNedded && coffeBeans > drinkType.coffeNeeded && water > drinkType.waterNeeded {
-            message = "Enjoy youre \(drinkType)"
+            titleMessage = "Add milk"
+            print(titleMessage)
+            return
+        } else if milk >= drinkType.milkNedded && coffeBeans >= drinkType.coffeNeeded && water >= drinkType.waterNeeded {
+            titleMessage = "Enjoy youre \(drinkType)"
             milk -= drinkType.milkNedded
             coffeBeans -= drinkType.coffeNeeded
             water -= drinkType.waterNeeded
+            thrash += 50
         }
         
         print("Water = \(water)")
@@ -48,19 +55,24 @@ class CoffeMachine {
         
     }
     
+    func clearThrash() {
+        thrash -= 100
+        componentTitleMessage = "Thrash cleard"
+    }
+    
     func addWater() {
         water += 60
-        componentMessage = "Water is added"
+        componentTitleMessage = "Water is added"
     }
     
     func addBeans() {
         coffeBeans += 50
-        componentMessage = "Coffe beans are added"
+        componentTitleMessage = "Coffe beans are added"
     }
     
     func addMilk() {
         milk += 80
-        componentMessage = "Milk is added"
+        componentTitleMessage = "Milk is added"
     }
     
     
