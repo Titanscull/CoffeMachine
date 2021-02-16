@@ -61,7 +61,7 @@ class CoffeMachine {
     }
     
     func addWater() {
-        water += 60
+        water += 100
         componentTitleMessage = "Water is added"
     }
     
@@ -71,7 +71,7 @@ class CoffeMachine {
     }
     
     func addMilk() {
-        milk += 80
+        milk += 200
         componentTitleMessage = "Milk is added"
     }
     
