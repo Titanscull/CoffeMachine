@@ -8,23 +8,23 @@
 import UIKit
 
 enum DrinkType {
-    case americano, espresso, moccacino, cupucino
+    case americano, espresso, moccacino, cappucino
     
     var coffeNeeded: Int {
         switch self {
         case .americano: return 50
         case .espresso:  return 40
         case .moccacino: return 30
-        case .cupucino: return 20
+        case .cappucino: return 20
         }
     }
-
+    
     var milkNedded: Int {
         switch self {
         case .americano: return 0
         case .espresso: return 0
         case .moccacino: return 50
-        case .cupucino: return 40
+        case .cappucino: return 40
         }
     }
     
@@ -32,12 +32,22 @@ enum DrinkType {
         switch self {
         case .americano: return 50
         case .espresso: return 30
-        case .cupucino: return 30
+        case .cappucino: return 30
         case .moccacino: return 20
         }
     }
-
-
+    
+    var thrashProduction: Int {
+        switch self {
+        case .americano: return 50
+        case .espresso:  return 40
+        case .moccacino: return 30
+        case .cappucino: return 20
+        }
+    }
+    
+    
+    
 }
 
 
