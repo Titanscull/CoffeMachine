@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         textLable.layer.masksToBounds = true
         textLable.layer.cornerRadius = 20
         
-        textLable.text = "Add ingredients, Please"
+        textLable.text = "What can i do for you?"
         
         
     }

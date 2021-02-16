@@ -39,10 +39,10 @@ enum DrinkType {
     
     var thrashProduction: Int {
         switch self {
-        case .americano: return 50
-        case .espresso:  return 40
-        case .moccacino: return 30
-        case .cappucino: return 20
+        case .americano: return 40
+        case .espresso:  return 20
+        case .moccacino: return 20
+        case .cappucino: return 10
         }
     }
     

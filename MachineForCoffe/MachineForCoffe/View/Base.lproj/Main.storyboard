@@ -88,7 +88,7 @@
                                     <action selector="espressoChosedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8LE-eB-e9k"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="68I-Fb-rmm">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="68I-Fb-rmm" userLabel="cappuccino">
                                 <rect key="frame" x="30" y="446" width="32" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.96862745098039216" green="0.96470588235294119" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -180,25 +180,25 @@
                                 <rect key="frame" x="279" y="556" width="80" height="4"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.56052714650000002" green="0.56052714650000002" blue="0.56052714650000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.2627450980392157" green="0.23921568627450979" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </progressView>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Sp0-7y-qtt">
                                 <rect key="frame" x="279" y="442" width="80" height="4"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.56052714650000002" green="0.56052714650000002" blue="0.56052714650000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.2627450980392157" green="0.23921568627450979" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </progressView>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ORU-kv-Jn6">
                                 <rect key="frame" x="279" y="333" width="80" height="4"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.56052714650000002" green="0.56052714650000002" blue="0.56052714650000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.2627450980392157" green="0.23921568627450979" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </progressView>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="y3Z-x3-bs0">
                                 <rect key="frame" x="149" y="703" width="133" height="4"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.56052714650000002" green="0.56052714650000002" blue="0.56052714650000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.2627450980392157" green="0.23921568627450979" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </progressView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
