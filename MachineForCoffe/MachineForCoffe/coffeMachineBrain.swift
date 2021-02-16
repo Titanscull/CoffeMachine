@@ -56,7 +56,7 @@ class CoffeMachine {
     }
     
     func clearThrash() {
-        thrash -= 100
+        thrash -= 200
         componentTitleMessage = "Thrash cleard"
     }
     
